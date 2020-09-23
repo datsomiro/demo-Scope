@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>You want to know your monthly salary?</h1>
+    </header>
+
+    <main>
+        <div class="main_input">
+            <input type="number" class="main_input--hourly" placeholder="Your hourly salary">
+            <input type="number" class="main_input--hours" placeholder="Number of working hours per day">
+            <input type="number" class="main_input--days" placeholder="number of working days per month ">
+        </div>  
+        <div class="button">
+            <button onclick="handleClick()"> Once all details provided, click here </button>
+        </div>
+        <h2 class="result"></h2>
+    </main>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
